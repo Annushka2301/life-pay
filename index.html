@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFE PAY</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script defer src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script defer src="scripts/slick.min.js"></script>
+    <script defer src="scripts/index.js"></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="hero">
+            <div class="hero__left">
+                <h1 class="hero__title title">Мобильный эквайринг с&nbsp;комиссией <span class="red">от&nbsp;1,2&nbsp;%</span></h1>
+                <p class="hero__descr">Принимайте оплату на выезде — любым удобным способом</p>
+                <button class="hero__btn btn">Подключить</button>
+            </div>
+            <div class="hero__img-wrap"><img class="hero__img" src="img/hero.svg"></div>
+        </section>
+        <section class="pay">
+            <h2 class="pay__title title">
+                <img class="decor" src="img/decor-pay.svg">
+                Платежи<span class="red"> в&nbsp;любой&nbsp;точке&nbsp;продаж</span></h2>
+            <div class="pay__wrap">
+                <div class="pay__card">
+                    <img class="pay__icon" src="img/star.svg">
+                    <div class="pay__cont">
+                        <h3 class="pay__card-title">Разные способы оплаты</h3>
+                        <p class="pay__descr">Оплата картой, наличными, по QR-коду или касанием мобильного телефона</p>
+                    </div>
+                </div>
+                <div class="pay__card">
+                    <img class="pay__icon" src="img/thumbs-up.svg">
+                    <div class="pay__cont">
+                        <h3 class="pay__card-title">Соотвествие закону</h3>
+                        <p class="pay__descr">Налоговая получит отчетность по 54-ФЗ, а клиент — чек</p>
+                    </div>
+                </div>
+                <div class="pay__card">
+                    <img class="pay__icon" src="img/shield.svg">
+                    <div class="pay__cont">
+                        <h3 class="pay__card-title">Безопасные платежи</h3>
+                        <p class="pay__descr">Отсутвие махинаций с купюрами и краж благодаря безналичной оплате</p>
+                    </div>
+                </div>
+                <div class="pay__card">
+                    <img class="pay__icon" src="img/edit.svg">
+                    <div class="pay__cont">
+                        <h3 class="pay__card-title">Дополнительные возможности</h3>
+                        <p class="pay__descr">Можно удалить позицию из заказа или отменить его перед оплатой</p>
+                    </div>
+                </div>
+            </div>
+            <p class="pay__comment">Вы платите меньше, если используете кассу не постоянно</p>
+            <button class="btn pay__btn">То, что надо</button>
+        </section>
+        <section class="choose">
+            <h2 class="choose__title title">
+                <img class="decor" src="img/decor-choose.svg">
+                Что выбрать</h2>
+            <div class="choose__wrap">
+                <div class="choose__card-wrap">
+                    <div class="choose__card">
+                        <div class="choose__img-wrap">
+                            <img class="choose__img" src="img/cash-machine.png">
+                        </div>
+                        <div class="choose__cont">
+                            <h3 class="choose__card-title">Смарт-терминал</h3>
+                            <p class="choose__descr">Умеет всё: карты, чеки, оплату по СБП		</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="choose__card-wrap">
+                    <div class="choose__card">
+                        <div class="choose__img-wrap">
+                            <img class="choose__img" src="img/calc.png">
+                        </div>
+                        <div class="choose__cont">
+                            <h3 class="choose__card-title">Мобильный терминал</h3>
+                            <p class="choose__descr">Работает с любым гаджетом по Bleutooth		</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="choose__card-wrap">
+                    <div class="choose__card">
+                        <div class="choose__img-wrap">
+                            <img class="choose__img" src="img/iPhone.png">
+                        </div>
+                        <div class="choose__cont">
+                            <h3 class="choose__card-title">Смартфон курьера</h3>
+                            <p class="choose__descr">Терминал в телефоне: работает на Android, принимает карты и оплату через СБП</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="accept">
+            <h2 class="accept__title title">
+                <img class="decor" src="img/decor-accept.svg">
+                Где можно принимать платежи</h2>
+            <div class="accept__wrap flex">
+                <div class="accept__card">
+                    <div class="accept__img-wrap">
+                        <img class="accept__img" src="img/card-1.svg">
+                    </div>
+                    <div class="accept__cont">
+                        <h3 class="accept__card-title">У клиента дома или&nbsp;в&nbsp;офисе</h3>
+                        <ul class="accept__ul">
+                            <li class="accept__li">
+                                <img class="accept__icon" src="img/credit-card.svg">
+                                Банковской картой
+                            </li>
+                            <li class="accept__li">
+                                <img class="accept__icon" src="img/touch.svg">
+                                Оплата касанием
+                            </li>
+                            <li class="accept__li">
+                                <img class="accept__icon" src="img/qr.svg">
+                                QR-код
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accept__card">
+                    <div class="accept__img-wrap">
+                        <img class="accept__img" src="img/card-2.svg">
+                    </div>
+                    <div class="accept__cont">
+                        <h3 class="accept__card-title">В любой точке на карте</h3>
+                        <ul class="accept__ul">
+                            <li class="accept__li">
+                                <img class="accept__icon" src="img/credit-card.svg">
+                                Банковской картой
+                            </li>
+                            <li class="accept__li">
+                                <img class="accept__icon" src="img/touch.svg">
+                                Оплата касанием
+                            </li>
+                            <li class="accept__li">
+                                <img class="accept__icon" src="img/qr.svg">
+                                QR-код
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="btn accept__btn">Хочу</button>
+        </section>
+        <section class="cost">
+            <div class="cost__wrap">
+                <div class="cost__left">
+                    <h2 class="cost__title title">
+                        <img class="decor" src="img/decor-cost.svg">
+                        <span class="red">Стоимость</span>
+                        мобильного
+                        эквайринга</h2>
+                    <p class="cost__descr">Прозрачная комисся на все виды эквайринга.
+                        Процент зависит только от вашей выручки и вида деятельности</p>
+                    <button class="btn cost__btn">Подключить</button>
+                </div>
+                <div class="cost__right table">
+                    <div class="table__top">
+                        <p class="table__title title">
+                            Комиссия за использование эквайринга
+                            <br>LIFE PAY — <span class="red">от 1,2% до 1,9%</span>
+                        </p>
+                    </div>
+                    <div class="table__down">
+                        <div class="table__column">
+                            <ul>
+                                <li class="table__line-title">
+                                    <h3 class="table__subtitle table__cont">Вид деятельности</h3>
+                                    <h3 class="table__subtitle table__percent">Комиссия за эквайринг
+                                        </h3>
+                                </li>
+                                <li class="table__line">
+                                    <p class="table__cont">Фастфуд</p>
+                                    <p class="table__percent">1,2%</p>
+                                </li>
+                                <li class="table__line">
+                                    <p class="table__cont">Продуктовые супермаркеты</p>
+                                    <p class="table__percent">1,5%</p>
+                                </li>
+                                <li class="table__line">
+                                    <p class="table__cont">Прочее</p>
+                                    <p class="table__percent">1,9%</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal">
+            <div class="modal__card">
+                <p class="modal__message">Любое всплывающее окно</p>
+                <button class="modal__btn btn">Закрыть</button>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
